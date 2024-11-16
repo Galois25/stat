@@ -8,7 +8,6 @@ st.title("6하원칙 기반 작문 도우미")
 
 # API 키 입력 받기
 api_key = st.text_input("Google API Key를 입력하세요", type="password")
-ㅔ
 if api_key:
     # Gemini 모델 설정
     genai.configure(api_key=api_key)
